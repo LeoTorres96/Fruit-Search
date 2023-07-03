@@ -1,0 +1,33 @@
+body {
+  background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3949.jpg?w=1800&t=st=1687933471~exp=1687934071~hmac=3da8b34fe983ceb8de0fa61c1410fa55af60ef428bc248e557ef620320246bf7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.search-container {
+  text-align: center;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+}
+
+input {
+  text-align: center;
+}
+
+ul li:hover {
+  background-color: #0c65b3;
+}
+
+ul li.highlight {
+  background-color: #0c65b3;
+}
